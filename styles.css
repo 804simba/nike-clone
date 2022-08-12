@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: #eee;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.showcase-img img, .dont-miss-img {
+    max-width: 100%;
+}
+
+.button {
+    border-radius: 25px;
+    padding: 13px 20px;
+}
+
+.button:hover {
+    background-color: #e9f011 !important;
+    transition: 0.4s;
+}
+
+.button.hero-btn {
+    padding: 13px 15px;
+    margin-right: 10px;
+}
+
+.showcase-header {
+    font-family: 'Rubik Dirt', cursive;
+    line-height: 3rem;
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+    color: #111;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-category {
+    text-align: left;
+}
+
+.app-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    height: 30%;
+}
+
+.last-btns {
+    bottom: -8% !important;
+    left: 8% !important;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+li {
+    list-style: none;
+}
+
+.store-sections {
+    line-height: 2.4;
+}
+
+.socials li {
+    margin-right: 20px;
+}
+
+footer {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+}
+
+.footer-links a {
+    color: #eee !important;
+}
+
+.location-svg {
+    width: 40px;
+}
+
+.date {
+    font-size: 2rem;
+}
+
+.signature {
+    font-size: 4rem;
+    color: red;   
+}
+
+.date {
+    color: #e9f011;
+}
+
+.form-text {
+    color: #000 !important;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    margin-bottom: 10px;
+    padding: 12px 40px;
+    border: 0.7px solid rgb(114, 112, 112);
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.keep-me-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
