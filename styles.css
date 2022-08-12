@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
 
@@ -35,9 +36,9 @@ a {
 }
 
 .showcase-header {
-    font-family: 'Rubik Dirt', cursive;
-    line-height: 3rem;
-    font-size: 3.5rem;
+    font-family: 'DM Serif Display', serif;
+    line-height: 4rem;
+    font-size: 5.5rem;
     letter-spacing: -2px;
     color: #111;
 }
@@ -133,4 +134,11 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 330px) and (max-width: 1080px) {
+    .showcase-header {
+        line-height: 3rem;
+        font-size: 3.5rem;
+    }
 }
